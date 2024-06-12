@@ -43,7 +43,8 @@ The project leverages Seaborn and Matplotlib to create insightful visualizations
 This project demonstrates how to use Python to monitor cryptocurrency prices using an API, store the data for analysis, and visualize the insights. By leveraging Pandas, Seaborn, and Matplotlib, we can gain valuable insights into cryptocurrency price movements over various time periods.
 
 
-Downloading Anaconda and Using Jupyter
+# Downloading Anaconda and Using Jupyter
+
 Step 1: Download Anaconda:
 Visit the official Anaconda website: Anaconda.com Choose the appropriate version (Python 3.x recommended) for your operating system (Windows, macOS, Linux). Click on the download button and follow the installation instructions provided for your operating system.
 
