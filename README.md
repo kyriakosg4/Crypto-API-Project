@@ -15,11 +15,6 @@ A function is created to fetch cryptocurrency prices using the CoinMarketCap API
 + Normalizes the JSON response data using Pandas.
 + Saves the normalized data to a CSV file for further analysis.
 
-### API Information
-* API Provider: CoinMarketCap
-* API Documentation: CoinMarketCap API Documentation
-* API URL: CoinMarketCap API
-
 3. Saving Data to CSV
 Each time the function runs, it fetches the latest cryptocurrency data and appends it to a CSV file. This allows for historical data analysis and tracking changes over time. The csv created in my local disk
 
@@ -38,6 +33,13 @@ The data frame is reset and restructured to facilitate correlation analysis.
   
 5. Data Visualization
 The project leverages Seaborn and Matplotlib to create insightful visualizations. Specifically, a categorical plot (catplot) is generated to visualize the data.
+
+
+### API Information
+* API Provider: CoinMarketCap
+* API Documentation: CoinMarketCap API Documentation
+* API URL: CoinMarketCap API
+  
 
 # Conclusion
 This project demonstrates how to use Python to monitor cryptocurrency prices using an API, store the data for analysis, and visualize the insights. By leveraging Pandas, Seaborn, and Matplotlib, we can gain valuable insights into cryptocurrency price movements over various time periods.
