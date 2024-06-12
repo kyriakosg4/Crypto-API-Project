@@ -16,9 +16,9 @@ A function is created to fetch cryptocurrency prices using the CoinMarketCap API
 + Saves the normalized data to a CSV file for further analysis.
 
 ### API Information
-API Provider: CoinMarketCap
-API Documentation: CoinMarketCap API Documentation
-API URL: CoinMarketCap API
+* API Provider: CoinMarketCap
+* API Documentation: CoinMarketCap API Documentation
+* API URL: CoinMarketCap API
 
 3. Saving Data to CSV
 Each time the function runs, it fetches the latest cryptocurrency data and appends it to a CSV file. This allows for historical data analysis and tracking changes over time. The csv created in my local disk
